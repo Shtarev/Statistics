@@ -6,7 +6,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `monitor` (
   `id` int(8) NOT NULL,
   `client` int(8) NOT NULL,
-  `client_ip` varchar(255) NOT NULL,
+  `client_ip` varchar(510) NOT NULL,
   `clienr_referer` varchar(510) NOT NULL,
   `site` text NOT NULL,
   `date` varchar(255) NOT NULL
